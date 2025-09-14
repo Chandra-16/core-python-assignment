@@ -10,6 +10,6 @@ total = 0
 for i, dist in enumerate(trips, start=1):
     fare = calculate_fare(dist)
     total += fare
-    print(f"Trip {i}: Rs {fare}")
+    print(f"Trip {i}:${fare}")
 
-print("Total Fare:", f"Rs {total}")
+print("Total Fare:", f"${total}")
